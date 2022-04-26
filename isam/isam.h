@@ -1,14 +1,14 @@
 #ifndef ISAM_H
 #define ISAM_H
 
-#include "file_organization.h"
+#include "../file_organization.h"
 
 #include <filesystem>
 #include <fstream>
 #include <map>
 #include <string>
 
-template <typename RecordType>
+template <typename TypeKey, typename RecordType>
 class IsamSparse : public FileOrganization<RecordType> {
 public:
   IsamSparse(std::string file, std::string index)
@@ -17,8 +17,8 @@ public:
   ~IsamSparse();
 
   void insert(RecordType record) override;
-  bool remove(char *key) override;
-  RecordType search(char *key) override;
+  bool remove(TypeKey key) override;
+  RecordType search(TypeKey key) override;
   void readIndex() override;
   void writeIndex() override;
 

@@ -16,14 +16,14 @@ struct Page {
   std::map<int, long> record;
 };
 
-template <typename RecordType> class FileOrganization {
+template <typename TypeKey, typename RecordType> class FileOrganization {
 public:
   virtual void readIndex() = 0;
   virtual void writeIndex() = 0;
   virtual void insert(RecordType record) = 0;
-  virtual RecordType search(char *key) = 0;
-  virtual std::vector<RecordType> searchInRange(char *initialKey,
-                                                char *endKey) = 0;
+  virtual RecordType search(TypeKey key) = 0;
+  virtual std::vector<RecordType> searchInRange(TypeKey initialKey,
+                                                TypeKey endKey) = 0;
   virtual bool remove(char *key) = 0;
 };
 
