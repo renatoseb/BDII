@@ -1,0 +1,484 @@
+ID,Name,Genres,Platforms,Runs,ReleaseDate
+0,Super Mario 64,3D Platformer,"Nintendo 64, Wii Virtual Console, Wii U Virtual Console, Switch",9174,1996-06-23
+1,Minecraft: Java Edition,Sandbox,PC,6869,2011-11-18
+2,Super Mario Odyssey,3D Platformer,Switch,4284,2017-10-27
+3,Celeste,2D Platformer,"PlayStation 4, Xbox One, PC, Switch, Xbox One X, Xbox One S, Google Stadia, PlayStation 5, Xbox Series X, Xbox Series S",3815,2018-01-25
+4,Mario Kart 8 Deluxe,Racing,Switch,7660,2017-04-28
+5,Seterra,Misc,"PC, Android, iOS, Web",7763,1997-01-01
+6,Portal,Puzzle,"PlayStation 3, Xbox 360, Xbox One, PC",3676,2007-10-09
+7,Super Metroid,Action,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, New Nintendo 3DS Virtual Console, Switch, SNES Classic Mini, MiSTer, Analogue Super Nt",2826,1994-03-19
+8,Getting Over It With Bennett Foddy,2D Platformer,"PC, Android, iOS",2561,2017-10-06
+9,"Super Mario Sunshine""Platformer",3D Platformer,"GameCube, Wii, Switch",2575,2002-07-19
+10,ROBLOX: Speed Run 4,Parkour,"PC, Android, iOS, Macintosh",5086,2013-01-01
+11,Super Mario World,2D Platformer,"Super Nintendo, Wii Virtual Console, Nintendo 3DS Virtual Console, Wii U Virtual Console, Switch, SNES Classic Mini, Analogue Super Nt",3150,1990-11-21
+12,Super Mario Bros.,2D Platformer,"Nintendo Entertainment System, Super Nintendo, Wii Virtual Console, Game Boy Advance, Wii, Nintendo 3DS Virtual Console, Famicom Disk System, Wii U Virtual Console, NES Classic Mini, Switch, SNES Classic Mini",2277,1985-09-13
+13,The Legend of Zelda: Ocarina of Time,Action-Adventure,"Nintendo 64, GameCube, Wii Virtual Console, Wii U Virtual Console, iQue Player, Switch",3065,1998-11-21
+14,The Legend of Zelda: A Link to the Past,Action-Adventure,"Super Nintendo, Wii Virtual Console, Nintendo 3DS Virtual Console, Wii U Virtual Console, Switch, SNES Classic Mini, MiSTer, Analogue Super Nt",2891,1991-11-21
+15,Minecraft: Bedrock Edition,Sandbox,"PlayStation 4, Xbox One, PC, Android, iOS, Windows Phone, Macintosh, Linux, Oculus VR, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S, Amazon Fire TV",2147,2011-08-16
+16,SpongeBob SquarePants: Battle for Bikini Bottom,3D Platformer,"GameCube, PlayStation 2, Xbox 360, Xbox, Wii, backwards-compatible PlayStation 3",1084,2003-10-31
+17,Resident Evil 2 (2019),Horror,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",2880,2019-01-25
+18,Pou,Misc,"Android, iOS",3930,2013-02-14
+19,ROBLOX: Piggy,Puzzle,"Xbox, PC, Android, iOS, Macintosh, HTC Vive, Oculus VR",4081,2020-01-23
+20,Outlast,Horror,"PlayStation 4, Xbox One, PC, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S, Nintendo Switch Lite, SwitchOLED",2043,2013-09-04
+21,Hades,Roguelike,"PlayStation 4, Xbox One, PC, Macintosh, Switch, PlayStation 5, Xbox Series X, Xbox Series S",3330,2018-12-06
+22,Minecraft (Classic),Sandbox,"PC, Web",3164,2009-05-17
+23,Refunct,3D Platformer,"PlayStation 4, Xbox One, PC, Switch",1737,2015-10-16
+24,Undertale,RPG,"PlayStation Vita, PlayStation 4, Xbox One, PC, Macintosh, Linux, Switch, PlayStation 5, Xbox Series X",1808,2015-09-15
+25,Hollow Knight,Action,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",1705,2017-02-24
+26,White Tiles 4: Piano Master 2,Rhythm,"Android, iOS",3755,2014-10-03
+27,The Legend of Zelda: Breath of the Wild,Action-Adventure,"Wii U, Switch",1668,2017-03-03
+28,Wii Sports Resort,Sports,"Wii U, Wii",2013,2009-06-25
+29,There Is No Game,Misc,"PC, Android, iOS, Web",2383,2015-06-25
+30,Crossy Road,2D Platformer,"Arcade, PC, Android, iOS, Web",2615,2014-11-20
+31,Portal 2,Puzzle,"PlayStation 3, Xbox 360, PC",1333,2011-04-19
+32,Bhop pro,Parkour,"Android, iOS",2241,2017-03-21
+33,Grand Theft Auto V,Sandbox,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",1462,2013-09-17
+34,Super Mario Bros. 3,2D Platformer,"Nintendo Entertainment System, Super Nintendo, Wii Virtual Console, Wii, Nintendo 3DS Virtual Console, Wii U Virtual Console, NES Classic Mini, Switch, SNES Classic Mini",1302,1988-10-23
+35,Cuphead,2D Platformer,"PlayStation 4, Xbox One, PC, Macintosh, Switch, Xbox Series X, Xbox Series S",1714,2017-09-29
+36,Luigi's Mansion,Action-Adventure,"GameCube, Wii",1129,2001-09-14
+37,Mario Kart Wii,Racing,"Wii U, Wii, Wii Mini",2401,2008-04-10
+38,Super Mario Galaxy,3D Platformer,"Wii, Wii U Virtual Console, Switch",1304,2007-11-01
+39,New Super Mario Bros. Wii,2D Platformer,"Wii U, Wii, Wii U Virtual Console",1312,2009-11-12
+40,Call of Duty: Black Ops Cold War Zombies,First-person shooter,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",2387,2020-11-12
+41,The Simpsons: Hit & Run,Sandbox,"GameCube, PlayStation 2, Xbox, PC",842,2003-09-16
+42,Sonic Adventure 2: Battle,3D Platformer,"GameCube, Dreamcast, PlayStation 3, Xbox 360, PC",1216,2001-06-23
+43,Spelunky 2,Roguelike,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",1338,2020-09-15
+44,Karlson (Itch.io),Parkour,"PC, Macintosh, Linux",1131,2020-01-17
+45,Metroid Dread,Action-Adventure,Switch,1605,2021-10-08
+46,Muck,Roguelike,"PC, Macintosh, Linux",1494,2021-06-05
+47,Spyro the Dragon,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",655,1998-09-10
+48,Call of Duty: Black Ops III Zombies,First-person shooter,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC",2469,2015-11-06
+49,Resident Evil 7: Biohazard,Horror,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",1058,2017-01-24
+50,Titanfall 2,First-person shooter,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, PlayStation 5, Xbox Series X, Xbox Series S",1245,2016-10-28
+51,Sonic Adventure (DX),3D Platformer,"GameCube, Dreamcast, PlayStation 3, Xbox 360, Xbox One, PC, Xbox Series X, Xbox Series S",1237,1998-12-23
+52,Banjo-Kazooie,3D Platformer,"Nintendo 64, Xbox 360, Xbox One, Switch Virtual Console, Xbox Series X",765,1998-06-29
+53,Dead by Daylight,Horror,"PlayStation 4, Xbox One, PC, Android, iOS, Switch, Google Stadia, PlayStation 5, Xbox Series X",1708,2016-06-14
+54,Rocket League,Sports,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",841,2015-07-07
+55,A Hat in Time,3D Platformer,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X",849,2017-10-05
+56,Paper Mario,RPG,"Nintendo 64, Wii Virtual Console, Wii U Virtual Console, Switch",960,2000-08-11
+57,ROBLOX: Jailbreak,Misc,"Xbox One, PC, Android, iOS, Macintosh",1518,2017-01-09
+58,Crash Bandicoot: N. Sane Trilogy,3D Platformer,"PlayStation 4, Xbox One, PC, Switch, Xbox One X, PlayStation 4 Pro, Xbox Series X, Xbox Series S, PS5 for backward compatible games",898,2017-06-30
+59,Red Ball,2D Platformer,Web,891,2009-06-23
+60,Grand Theft Auto: Vice City,Sandbox,"PlayStation 2, Xbox, PlayStation 4, PC, Macintosh",705,2002-10-27
+61,Resident Evil 4 (Console),Horror,"GameCube, Wii U, PlayStation 2, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Wii, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",773,2005-01-11
+62,Counter-Strike: Global Offensive,First-person shooter,"PlayStation 3, Xbox 360, PC",1494,2012-08-21
+63,Mario Kart: Double Dash!!,Racing,GameCube,1204,2003-11-07
+64,The Messenger,2D Platformer,"PlayStation 4, Xbox One, PC, Switch",775,2018-08-30
+65,Resident Evil 2,Horror,"Nintendo 64, GameCube, Dreamcast, PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, PC, Wii, Playstation TV",1229,1998-01-21
+66,Cookie Clicker,Misc,"PC, Web",1174,2013-08-10
+67,Katana ZERO,Action,"Xbox One, PC, Switch, Xbox Series X, Xbox Series S",1076,2019-04-18
+68,The Legend of Zelda,Action-Adventure,"Nintendo Entertainment System, GameCube, Wii Virtual Console, Game Boy Advance, Nintendo 3DS Virtual Console, Famicom Disk System, Wii U Virtual Console, New Nintendo 3DS Virtual Console, NES Classic Mini, Game & Watch, Switch, Famicom",631,1986-02-21
+69,Super Meat Boy,2D Platformer,"Wii U, Xbox 360, PlayStation Vita, PlayStation 4, Xbox One, PC, Macintosh, Linux, Switch, Nvidia Shield, PlayStation 5, Xbox Series X, Xbox Series S",980,2010-10-20
+70,Overwatch,First-person shooter,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",1679,2016-05-24
+71,Spelunky,Roguelike,"PlayStation 3, Xbox 360, PlayStation Vita, PlayStation 4, PC, Switch",1356,2013-08-08
+72,Among Us,Misc,"PlayStation 4, Xbox One, PC, Android, iOS, Switch, PlayStation 5, Xbox Series X, Xbox Series S",1595,2018-06-15
+73,League of Legends,Strategy,"PC, Macintosh",1662,2009-01-01
+74,Half-Life,First-person shooter,"PlayStation 2, PC, Macintosh, Linux",501,1998-11-08
+75,Tom Clancy's Rainbow Six Siege,First-person shooter,"PlayStation 4, Xbox One, PC",1627,2015-12-01
+76,Tower of Hell,Misc,"Xbox One, PC, Android, iOS, Macintosh",1064,2018-06-18
+77,Resident Evil 3 (2020),Horror,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",1117,2020-03-18
+78,The Legend of Zelda: Majora's Mask,Action-Adventure,"Nintendo 64, GameCube, Wii Virtual Console, Wii U Virtual Console, Switch",688,2000-04-27
+79,Jump King,2D Platformer,"PlayStation 4, Xbox One, PC, Switch",980,2019-05-03
+80,ROBLOX: BedWars,Misc,"PC, Android, iOS, Macintosh",668,2021-05-28
+81,Super Mario Galaxy 2,3D Platformer,"Wii, Wii U Virtual Console",764,2010-05-23
+82,Pokémon Red/Blue,RPG,"Nintendo 64, Game Boy Color, Game Boy Advance, Nintendo 3DS Virtual Console, Super Game Boy, Game Boy Player, Super Game Boy 2, Game Boy, New Nintendo 3DS Virtual Console, Game Boy Interface",954,1996-02-27
+83,Super Monkey Ball 2,Puzzle,"GameCube, Wii",901,2002-08-25
+84,Mario Kart 8,Racing,Wii U,1528,2014-05-29
+85,Spyro 2: Ripto's Rage!,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",581,1999-11-02
+86,Diablo II: Lord of Destruction,Action,PC,914,2001-06-27
+87,CELESTE Classic,2D Platformer,"PlayStation 4, Xbox One, PC, Web, Switch, PICO-8",745,2015-07-21
+88,CraftRise,Sandbox,PC,301,2015-09-17
+89,Jak and Daxter: The Precursor Legacy,3D Platformer,"PlayStation 2, PlayStation 3, PlayStation Vita, PlayStation 4, PlayStation 5, backwards-compatible PlayStation 3",468,2001-12-03
+90,Resident Evil 3: Nemesis,Horror,"GameCube, Dreamcast, PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, PC, Wii, Playstation TV",766,1999-09-22
+91,Piano Tiles,Rhythm,"Android, iOS, Windows Phone",1463,2014-03-28
+92,Streets of Rage 4,Brawler,"PlayStation 4, Xbox One, PC, Switch",1030,2020-04-30
+93,Kingdom Hearts Final Mix,RPG,"PlayStation 2, PlayStation 3, PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",734,2002-12-26
+94,Five Nights at Freddy's: Security Breach,Horror,"PlayStation 4, PC, PlayStation 5",1035,2021-12-16
+95,Dark Souls III,Action,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",639,2016-03-24
+96,Ori and the Blind Forest Definitive Edition,Action-Adventure,"Xbox One, PC, Switch",450,2016-03-11
+97,Mario Kart 7,Racing,"Nintendo 3DS, New Nintendo 3DS",1259,2011-12-01
+98,Factorio,Sandbox,PC,706,2020-08-14
+99,Resident Evil (Remake),Horror,"GameCube, Wii",39,2002-03-22
+100,Wii Sports,Sports,"Wii U, Wii",859,2006-11-19
+101,Google Snake Game,Misc,Web,1124,2017-09-27
+102,Sekiro: Shadows Die Twice,Action,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",645,2019-03-22
+103,Mirror's Edge,Parkour,"PlayStation 3, Xbox 360, Xbox One, PC, Xbox Series X, Xbox Series S",545,2008-11-11
+104,LEGO Star Wars: The Complete Saga (PC/Console),Action-Adventure,"Wii U, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Wii, Android, iOS, Macintosh, Linux, Xbox One X, PlayStation 4 Pro, Xbox One S, Xbox Series X",529,2007-11-06
+105,Zelda II: The Adventure of Link,Action-Adventure,"Nintendo Entertainment System, GameCube, Wii Virtual Console, Game Boy Advance, Nintendo 3DS, Nintendo 3DS Virtual Console, Famicom Disk System, Wii U Virtual Console, NES Classic Mini, Switch, SNES Classic Mini, MiSTer, Analogue Nt, Analogue Nt Mini, Nt Mini Noir, retroUSB AVS",411,1987-01-14
+106,Duck Life 1,Racing,Web,876,2008-01-01
+107,Shovel Knight,2D Platformer,"Wii U, Nintendo 3DS, PlayStation 3, PlayStation Vita, PlayStation 4, Xbox One, PC, Linux, Switch",629,2014-06-26
+108,Human: Fall Flat,Puzzle,"PlayStation 4, Xbox One, PC, Android, iOS, Macintosh, Linux, Switch, Google Stadia",715,2016-07-22
+109,Mario Kart DS,Racing,"Nintendo DS, Nintendo 3DS, Wii U Virtual Console",895,2005-11-14
+110,Mario Kart 64,Racing,"Nintendo 64, Wii Virtual Console, Wii U Virtual Console, Switch",756,1996-12-14
+111,Google Doodle Champion Island Games Begin!,Sports,"PC, Web, Macintosh, Linux",716,2021-07-23
+112,Super Mario 3D World + Bowser's Fury,3D Platformer,Switch,694,2021-02-12
+113,Crash Team Racing,Racing,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV, PSN Download",611,1999-09-30
+114,Donkey Kong Country,2D Platformer,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, New Nintendo 3DS Virtual Console, SNES Classic Mini, Switch Virtual Console",725,1994-11-21
+115,Resident Evil Village,Horror,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",655,2021-05-07
+116,ROBLOX: Piggy Book 2,Horror,"Xbox, PC, Android, iOS, Macintosh, HTC Vive, Oculus VR",1285,2020-09-12
+117,Kingdom Hearts II Final Mix,RPG,"PlayStation 2, PlayStation 3, PlayStation 4, Xbox One, PC, PlayStation 4 Pro, PlayStation 5, Xbox Series X, Xbox Series S",715,2007-03-29
+118,Donkey Kong 64,3D Platformer,"Nintendo 64, Wii U Virtual Console",381,1999-11-22
+119,Hotline Miami,Action,"PlayStation 3, PlayStation Vita, PlayStation 4, Xbox One, PC, Android, Switch",603,2012-10-23
+120,Poppy Playtime,Horror,"PC, Android, iOS",837,2021-10-13
+121,Rec Room,Misc,"PlayStation, Xbox, PC, Android, iOS, HTC Vive, Oculus VR, Valve Index, Windows Mixed Reality, Oculus Quest",857,2016-06-01
+122,Enter the Gungeon,Roguelike,"PlayStation 4, Xbox One, PC, Switch",1001,2016-04-05
+123,Bloodborne,Action,"PlayStation 4, PlayStation 5",425,2015-03-24
+124,Super Mario 3D All-Stars,3D Platformer,Switch,81,2020-09-17
+125,Brawl Stars,Brawler,"Android, iOS",1081,2017-06-15
+126,Resident Evil,Horror,"Sega Saturn, PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, PC, Playstation TV, PSN Download",776,1996-03-22
+127,Metroid: Zero Mission,Action,"Game Boy Advance, Wii U Virtual Console",544,2004-02-09
+128,Octopath Traveler,RPG,"Xbox One, PC, Switch, Xbox One X, Xbox One S, Google Stadia, Xbox Series X, Xbox Series S",723,2018-07-13
+129,ROBLOX: Escape The Dentist Obby,Misc,"Xbox One, PC, Android, iOS, Macintosh, Linux, Xbox One X",847,2017-08-14
+130,Superliminal,Puzzle,"PlayStation 4, Xbox One, PC, Switch",578,2019-11-12
+131,VVVVVV,2D Platformer,"Nintendo 3DS, PlayStation Vita, PlayStation 4, PC, Android, iOS, Switch",659,2010-01-11
+132,Robot 64,3D Platformer,"Xbox One, PC, Android, iOS, Macintosh, Nvidia Shield",566,2018-04-18
+133,New Super Mario Bros.,2D Platformer,"Nintendo DS, Nintendo 3DS, Wii U Virtual Console, New Nintendo 3DS",464,2006-05-15
+134,Slither.io,Misc,"PC, Android, iOS, Web, Macintosh, Linux",775,2016-03-25
+135,Hello Neighbor,Horror,"PlayStation 4, Xbox One, PC, Android, iOS, Macintosh, Linux, Switch, Google Stadia",584,2016-09-29
+136,Spyro Reignited Trilogy (PC),3D Platformer,PC,416,2019-09-03
+137,Dark Souls,Action,"PlayStation 3, Xbox 360, Xbox One, PC",523,2011-09-22
+138,Slime Rancher,Sandbox,"PlayStation 4, Xbox One, PC, Macintosh, Linux, Switch, Xbox One X, PlayStation 4 Pro, PlayStation 5, Xbox Series X, Xbox Series S",717,2017-08-01
+139,The Legend of Zelda: Twilight Princess,Action-Adventure,"GameCube, Wii, Nvidia Shield",543,2006-11-19
+140,Google Solitaire,Misc,"Android, Web",679,2016-08-25
+141,Chip 'N Dale: Rescue Rangers,2D Platformer,Nintendo Entertainment System,498,1990-01-01
+142,Grand Theft Auto: San Andreas,Sandbox,"PlayStation 2, PlayStation 3, Xbox 360, Xbox, PlayStation 4, PC, PlayStation 5",423,2004-10-26
+143,Granny,Horror,"Android, iOS",775,2017-11-24
+144,Geometry Dash,2D Platformer,"PC, Android, iOS, Macintosh, Linux",813,2013-08-13
+145,Minesweeper,Misc,"PC, MS-DOS, Android, iOS, Web, Linux",744,1990-01-01
+146,EarthBound,RPG,"Super Nintendo, Nintendo 3DS Virtual Console, Wii U Virtual Console, SNES Classic Mini, Switch Virtual Console",457,1994-08-27
+147,Resident Evil 4 (Steam),Horror,PC,605,2014-02-27
+148,Terraria,Sandbox,"PC, Playstation 3, Xbox 360, PlayStation Vita, iOS, Android, Windows Phone, Playstation 4, XboxOne, Nintendo 3DS, Wii U, Nintendo Switch",819,2011-05-11
+149,Spyro: Year of the Dragon,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",332,2000-10-25
+150,Super Mario Bros. 2,2D Platformer,"Nintendo Entertainment System, Super Nintendo, Wii Virtual Console, Nintendo 3DS Virtual Console, Wii U Virtual Console, NES Classic Mini, Switch, SNES Classic Mini",627,1988-01-01
+151,Sly Cooper and the Thievius Raccoonus,3D Platformer,"PlayStation 2, PlayStation 3, PlayStation Vita, Playstation Now, backwards-compatible PlayStation 3",334,2002-09-23
+152,Super Mario Bros.: The Lost Levels,2D Platformer,"Super Nintendo, Wii Virtual Console, Game Boy Advance, Wii, Nintendo 3DS Virtual Console, Famicom Disk System, Wii U Virtual Console, Switch, SNES Classic Mini",531,1986-06-03
+153,Ninja Gaiden (NES),2D Platformer,"Nintendo Entertainment System, Wii Virtual Console, NES Classic Mini, Switch",353,1988-12-09
+154,Gunfire Reborn,First-person shooter,PC,833,2020-05-22
+155,The Legend of Zelda: Link's Awakening DX,Action-Adventure,"Game Boy Color, Game Boy Advance, Game Boy Player, Super Game Boy 2, Game Boy, Game Boy Interface, MiSTer",459,1998-12-12
+156,Crash Bandicoot 2: Cortex Strikes Back,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",433,1998-12-12
+157,ROBLOX: Down Hill Smash,Misc,"PC, Android, iOS, Macintosh",592,1997-10-31
+158,Batman: Arkham City,Action-Adventure,"Wii U, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Playstation Now, PlayStation 5, Xbox Series X, Xbox Series S",484,2008-02-17
+159,Donkey Kong Country 2: Diddy's Kong Quest,2D Platformer,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, New Nintendo 3DS Virtual Console, SNES Classic Mini, Switch Virtual Console",549,2011-10-18
+160,Diddy Kong Racing,Racing,Nintendo 64,352,1995-11-20
+161,RE:RUN,Parkour,"PC, Macintosh, Linux",379,1997-11-14
+162,Mega Man X,2D Platformer,"Super Nintendo, Wii Virtual Console, PC, Wii U Virtual Console, SNES Classic Mini",670,2020-08-08
+163,New Super Mario Bros. 2,2D Platformer,"Nintendo 3DS, New Nintendo 3DS",391,1993-01-01
+164,Among Us Clicker,Misc,Web,943,2012-07-28
+165,Choppy Orc,Puzzle,Web,535,2021-06-03
+166,Kirby's Dream Land,2D Platformer,"Wii U, Wii, Nintendo 3DS Virtual Console, Super Game Boy, Game Boy Player, Super Game Boy 2, Game Boy, Game Boy Interface",481,2018-08-31
+167,Call of Duty: Black Ops Zombies,First-person shooter,"PlayStation 3, Xbox 360, Xbox One, PC, Wii",1211,1992-04-27
+168,Solitaire,Misc,"PC, Android, iOS",492,2010-11-09
+169,Tetris (NES),Puzzle,Nintendo Entertainment System,530,1990-05-22
+170,Kirby Super Star Ultra,2D Platformer,"Nintendo DS, Nintendo 3DS, New Nintendo 3DS",478,1989-01-01
+171,ROBLOX: The Mimic,Horror,"Xbox, PC, Android, iOS, Macintosh",149,2008-09-22
+172,Untitled Goose Game,Sandbox,"PlayStation 4, Xbox One, PC, Macintosh, Switch",449,2021-01-15
+173,Soul Knight,Roguelike,"Android, iOS, Switch",733,2019-09-20
+174,Dishonored,Action,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X",504,2017-02-17
+175,Plants vs. Zombies,Strategy,"Nintendo DS, PlayStation 3, Xbox 360, PlayStation Vita, PC",473,2012-10-09
+176,Ratchet & Clank,Action,"PlayStation 2, PlayStation 3, PlayStation Vita, Playstation TV, backwards-compatible PlayStation 3",268,2009-05-05
+177,Ratchet & Clank: Going Commando,Action,"PlayStation 2, PlayStation 3, PlayStation Vita, backwards-compatible PlayStation 3",247,2002-11-04
+178,Grand Theft Auto III,Sandbox,"PlayStation 2, Xbox, PlayStation 4, PC, Macintosh, PlayStation 5",386,2003-11-11
+179,Spyro Reignited Trilogy (Console & Time Trials),3D Platformer,"PlayStation 4, Xbox One, PC, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",425,2001-10-22
+180,Stardew Valley,Sandbox,"PlayStation 4, Xbox One, PC, Android, iOS, Switch",796,2018-11-13
+181,Super Mario 64 DS,3D Platformer,"Nintendo DS, Nintendo 3DS, Wii U Virtual Console, New Nintendo 3DS",352,2016-02-26
+182,Metroid Fusion,Action-Adventure,"Game Boy Advance, Nintendo 3DS, Wii U Virtual Console",500,2004-11-21
+183,The Binding of Isaac: Afterbirth+,Roguelike,"PC, XboxOne, PlayStation 4",583,2002-11-17
+184,Crash Bandicoot 3: Warped,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",380,2017-01-03
+185,Lunch Lady,Horror,PC,769,1998-11-04
+186,NieR: Automata,Action,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X",383,2021-04-15
+187,Dark Souls Remastered,Action,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X",485,2017-02-23
+188,Contra,Action,"Nintendo Entertainment System, PlayStation 4, Xbox One, PC, NES Classic Mini, Switch",373,2018-05-25
+189,Subnautica,Sandbox,"PlayStation 4, Xbox One, PC, Macintosh, Switch, PlayStation 5, Xbox Series X",378,1988-02-01
+190,Red Ball 4 Vol.1,2D Platformer,Web,372,2018-01-23
+191,Splatoon 2,Action,Switch,459,2012-11-01
+192,Call of Duty: Black Ops II Zombies,First-person shooter,"Wii U, PlayStation 3, Xbox 360, PC",993,2017-07-21
+193,Minecraft: Pocket Edition Lite,Sandbox,"Android, iOS",551,2012-11-09
+194,ROBLOX: Time Trial,Parkour,"Xbox, PC, Android, iOS, Macintosh",632,2012-09-13
+195,Super Mario World 2: Yoshi's Island,2D Platformer,"Super Nintendo, Switch, SNES Classic Mini",462,2020-12-17
+196,Bhop GO,Parkour,"Android, iOS",723,1995-08-05
+197,Borderlands 2,First-person shooter,"PlayStation 3, Xbox 360, PlayStation Vita, PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X",458,2018-09-08
+198,The Legend of Zelda: The Wind Waker HD,Action-Adventure,Wii U,393,2012-12-18
+199,Metal Gear Solid,Action,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, PC, Playstation TV, Playstation Classic",484,2013-09-20
+200,Castlevania: Symphony of the Night,Action-Adventure,"Sega Saturn, PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, Xbox 360, PlayStation Vita, PlayStation 4, Xbox One",329,1998-09-03
+201,Castlevania (NES),Action,"Nintendo Entertainment System, Wii Virtual Console, PlayStation 4, Xbox One, PC, Famicom Disk System, Wii U Virtual Console, NES Classic Mini, Switch, PlayStation 5, MiSTer",404,1997-01-01
+202,Hypixel Duels,Misc,"PC, Macintosh, Linux",778,1986-09-26
+203,ROBLOX: Speed Run 4 Classic,Parkour,"Xbox One, PC, Android, iOS, Macintosh, Xbox Series X",555,2017-01-19
+204,Doom (Unity Ports),First-person shooter,"PlayStation 4, Xbox One, PC, Android, iOS, Switch, PlayStation 5, Xbox Series X, Xbox Series S",501,2014-10-20
+205,2048,Puzzle,"PC, Android, iOS, Windows Phone, Web",368,2019-07-26
+206,Super Smash Bros. Brawl,Brawler,"Wii U, Wii",574,2014-03-09
+207,Final Fantasy X,RPG,"PlayStation 2, PlayStation 3, PlayStation Vita, PlayStation 4, Xbox One, PC, Switch, PlayStation 4 Pro, PlayStation 5, Xbox Series X, Xbox Series S",410,2008-01-31
+208,The Witness,Puzzle,"PlayStation 4, Xbox One, PC, iOS, Macintosh",374,2001-07-19
+209,Plants vs. Zombies: Garden Warfare 2,Action,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",611,2016-01-26
+210,Wii Party,Misc,"Wii U, Wii",736,2016-02-23
+211,Banjo-Tooie,3D Platformer,"Nintendo 64, Xbox 360, Xbox One, Xbox Series X",337,2010-07-08
+212,LEGO Harry Potter: Years 1-4,Action-Adventure,"Wii U, PlayStation 3, Xbox 360, PC, Wii, PS5 for backward compatible games",301,2000-11-19
+213,Valorant,First-person shooter,PC,738,2010-06-25
+214,Kirby: Nightmare in Dream Land,2D Platformer,"Game Boy Advance, Nintendo DS, Wii U Virtual Console, Game Boy Player",322,2020-06-02
+215,Super Monkey Ball,Puzzle,"GameCube, Wii",541,2002-10-25
+216,Final Fantasy VII,RPG,"PlayStation 2, PlayStation, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Playstation TV, Switch, PlayStation 5",393,2001-09-14
+217,Tetris (Web),Puzzle,"PC, Android, iOS, Web",696,1997-01-01
+218,Harry Potter and the Chamber of Secrets (PC),Action-Adventure,PC,243,2016-11-20
+219,OvO,2D Platformer,"Android, iOS, Web",456,2002-01-03
+220,The Henry Stickmin Collection,Puzzle,PC,446,2018-09-01
+221,Super Smash Bros. Melee,Brawler,"GameCube, Wii",601,2020-08-07
+222,Helltaker,Puzzle,PC,568,2001-11-21
+223,Metroid Prime,Action-Adventure,GameCube,268,2020-05-11
+224,Sonic Mania,2D Platformer,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",390,2002-11-17
+225,SpongeBob SquarePants: Battle for Bikini Bottom – Rehydrated,3D Platformer,"PlayStation 4, Xbox One, PC, Android, iOS, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, Google Stadia, PlayStation 5, Xbox Series X, Xbox Series S",415,2017-08-15
+226,Super Mario Maker 2,2D Platformer,Switch,567,2020-06-23
+227,Kingdom Hearts: Birth by Sleep Final Mix HD,RPG,"PlayStation 3, PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X",398,2019-06-28
+228,Kirby: Star Allies,2D Platformer,Switch,340,2014-10-02
+229,Scooby-Doo! Night of 100 Frights,3D Platformer,"GameCube, PlayStation 2, Xbox, backwards-compatible PlayStation 3",201,2018-03-16
+230,Tetris Attack,Puzzle,"Super Nintendo, Wii Virtual Console, Nintendo 3DS Virtual Console, Wii U Virtual Console, New Nintendo 3DS Virtual Console, Switch, Satellaview, SNES Classic Mini",363,2002-05-20
+231,Splatoon,Action,Wii U,291,1996-08-05
+232,World of Warcraft,RPG,PC,627,2015-05-30
+233,Google Quick Draw,Misc,"PC, Android, iOS, Web",572,2004-11-23
+234,Cooking Mama 2: Dinner With Friends,Misc,"Nintendo DS, Nintendo 3DS, New Nintendo 3DS",362,2016-11-17
+235,Metroid (NES),Action-Adventure,"Nintendo Entertainment System, GameCube, Wii Virtual Console, Game Boy Advance, Nintendo 3DS Virtual Console, Wii U Virtual Console, NES Classic Mini, Switch",244,2007-11-13
+236,We Become What We Behold,Misc,"PC, Web, Macintosh",548,1986-08-06
+237,DuckTales (NES),2D Platformer,"Nintendo Entertainment System, NES Classic Mini",327,2016-10-18
+238,Streets of Rage 2,Brawler,"Sega Genesis, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Wii, Switch",393,1989-09-14
+239,Super Castlevania IV,Action,"Super Nintendo, Wii Virtual Console, SNES Classic Mini",204,1992-12-20
+240,Luigi's Mansion 3,Action-Adventure,Switch,337,1991-10-31
+241,Grand Theft Auto Online,Sandbox,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",543,2019-10-31
+242,Pokémon Puzzle League,Puzzle,"Nintendo 64, Wii Virtual Console",378,2013-09-17
+243,Fallout: New Vegas,RPG,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC",242,2000-09-25
+244,The Legend of Zelda: The Wind Waker,Action-Adventure,GameCube,352,2010-10-19
+245,Tony Hawk's Underground,Sports,"GameCube, PlayStation 2, Xbox 360, Xbox, PC",254,2002-12-13
+246,McPlayHD,Misc,"PC, Macintosh, Linux",412,2003-10-28
+247,Donkey Kong Country 3: Dixie Kong's Double Trouble!,2D Platformer,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, New Nintendo 3DS Virtual Console, SNES Classic Mini, Switch Virtual Console",390,2015-09-13
+248,Penumbra: Black Plague,Horror,"PC, Macintosh, Linux",280,1996-11-22
+249,The SpongeBob SquarePants Movie,3D Platformer,"GameCube, PlayStation 2, Xbox 360, Xbox, Wii, PSN Download, backwards-compatible PlayStation 3",223,2008-02-12
+250,Pokémon Snap,Misc,"Nintendo 64, Wii Virtual Console, Wii U Virtual Console",283,2004-10-27
+251,Resident Evil 5,Horror,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",489,1999-03-21
+252,Crash Bandicoot,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",265,2009-03-05
+253,The Legend of Zelda: The Minish Cap,Action-Adventure,"Game Boy Advance, Nintendo 3DS Virtual Console, Wii U Virtual Console, Game Boy Interface",227,1996-09-09
+254,Crash Team Racing: Nitro-Fueled,Racing,"PlayStation 4, Xbox One, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",303,2004-11-04
+255,Dragster,Racing,"Atari 2600, Atari 7800",397,2019-06-21
+256,Clustertruck,Parkour,"PlayStation 4, Xbox One, PC, Switch",312,1980-01-01
+257,Ratchet & Clank: Up Your Arsenal,Action,"PlayStation 2, PlayStation 3, PlayStation Vita, backwards-compatible PlayStation 3",173,2016-09-27
+258,Geometry Dash World,2D Platformer,"Android, iOS",510,2004-11-02
+259,The Talos Principle,Puzzle,"PlayStation 4, Xbox One, PC, Android, iOS, Macintosh, Linux, Switch",274,2016-12-21
+260,Clash of Clans,Strategy,"PC, Android, iOS",395,2014-12-11
+261,Outer Wilds,Action-Adventure,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",347,2012-01-01
+262,Hypixel Arcade Games,Misc,"PC, Macintosh, Linux",575,2019-05-28
+263,Star Fox 64,Action,"Nintendo 64, Wii Virtual Console, Wii U Virtual Console, iQue Player, Switch Virtual Console",362,2014-05-27
+264,Wii Play,Misc,"Wii U, Wii",446,1997-04-27
+265,Momodora: Reverie Under the Moonlight,2D Platformer,"PlayStation 4, Xbox One, PC, Switch",302,2007-02-12
+266,Dying Light,Horror,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",365,2016-03-04
+267,New Super Mario Bros. U Deluxe,2D Platformer,Switch,384,2015-01-26
+268,Final Fantasy VII Remake,RPG,"PlayStation 4, PC, PlayStation 4 Pro, PlayStation 5",313,2019-01-11
+269,Minecraft: Datapack & Modded CE,Sandbox,PC,395,2020-03-02
+270,Apex Legends,First-person shooter,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",511,2020-12-15
+271,Call of Duty: Black Ops IIII Zombies,First-person shooter,"PlayStation 4, Xbox One, PC",651,2019-02-04
+272,The Last of Us,Action,"PlayStation 3, PlayStation 4, PlayStation 4 Pro, PlayStation 5",204,2018-10-12
+273,Alien: Isolation,Horror,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Android, iOS, Macintosh, Linux, Switch, PlayStation 5, Xbox Series X",264,2013-06-14
+274,SCP Secret Laboratory,Horror,PC,399,2014-10-07
+275,Granny (PC),Horror,PC,303,2017-12-29
+276,Sonic R,Racing,"GameCube, Sega Saturn, PlayStation 2, PC",302,2018-11-20
+277,Dead Cells,Roguelike,"PlayStation 4, Xbox One, PC, Android, iOS, Switch",219,1997-11-18
+278,Age of History 2,Strategy,"PC, Android, iOS, Macintosh, Linux",582,2017-05-10
+279,Guild Wars 2,RPG,PC,727,2018-11-21
+280,Minecraft: Legacy Console Edition,Sandbox,"Wii U, PlayStation 3, Xbox 360, PlayStation Vita, PlayStation 4, Xbox One, Switch, PlayStation 5, Xbox Series X",356,2012-08-28
+281,Titan Souls,Action-Adventure,"PlayStation Vita, PlayStation 4, PC, Nvidia Shield",336,2012-05-09
+282,Dustforce DX,2D Platformer,PC,233,2015-04-14
+283,The Elder Scrolls IV: Oblivion,RPG,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Xbox Series X",246,2014-01-01
+284,Super Smash Bros. Ultimate,Brawler,"Switch, Nintendo Switch Lite",480,2006-03-20
+285,Silent Hill,Horror,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",258,2018-12-07
+286,Jak II,3D Platformer,"PlayStation 2, PlayStation 3, PlayStation Vita, PlayStation 4, PlayStation 5, backwards-compatible PlayStation 3",191,1999-01-31
+287,Plague Inc.,Strategy,"Android, iOS",501,2003-10-14
+288,Pringles,2D Platformer,Sega Genesis,454,2012-05-26
+289,A Short Hike,Misc,"PlayStation 4, Xbox One, PC, Macintosh, Linux, Switch, PlayStation 5, Xbox Series X, Xbox Series S",281,2009-10-12
+290,Jet Set Radio Future,Action,"Xbox 360, Xbox",193,2019-04-05
+291,Super Mario 3D World,3D Platformer,Wii U,286,2002-02-22
+292,Antichamber,Puzzle,PC,439,2013-11-21
+293,Final Fantasy IV,RPG,"Super Nintendo, Game Boy Advance, Nintendo DS, PlayStation 2, PlayStation, PlayStation Portable, PC, iOS",300,2013-01-31
+294,Risk of Rain 2,Roguelike,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X",355,1991-01-01
+295,The Elder Scrolls V: Skyrim,RPG,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",325,2019-03-28
+296,Agar.io,Misc,"Android, iOS, Web",466,2011-11-11
+297,The Legend of Zelda: Skyward Sword,Action-Adventure,"Wii, Wii U Virtual Console",190,2015-04-28
+298,Dr. Mario (NES),Puzzle,"Nintendo Entertainment System, Game Boy Advance, Wii U Virtual Console, NES Classic Mini, Switch",232,2011-11-18
+299,Donkey Kong (NES),2D Platformer,"Nintendo Entertainment System, Wii Virtual Console, Nintendo 3DS, Famicom Disk System, Wii U Virtual Console, NES Classic Mini, Switch",389,1990-07-27
+300,Pikmin 2,Strategy,GameCube,142,1983-07-15
+301,Little Nightmares,Horror,"PlayStation 4, Xbox One, PC, Switch, PlayStation 4 Pro, Google Stadia, PlayStation 5, Xbox Series X, Xbox Series S",306,2004-04-29
+302,Super Mario Land 2: 6 Golden Coins,2D Platformer,"Nintendo 3DS Virtual Console, Super Game Boy, Game Boy Player, Super Game Boy 2, Game Boy",219,2017-04-27
+303,Timberman,Misc,"Nintendo 3DS, Arcade, PlayStation 4, Xbox One, PC, Android, iOS, Web, New Nintendo 3DS, Macintosh, Linux, Switch, PlayStation 5, Xbox Series X, Xbox Series S",501,1992-10-21
+304,Call of Duty: Modern Warfare 2,First-person shooter,"PlayStation 3, Xbox 360, PC",338,2015-09-18
+305,Bendy And The Ink Machine,Horror,"PlayStation 4, Xbox One, PC, Android, iOS, Switch, Xbox Series X, Xbox Series S",360,2009-11-10
+306,Call of Duty: World at War Zombies,First-person shooter,"PlayStation 3, Xbox 360, Xbox One, PC",562,2017-02-10
+307,Half-Life 2,First-person shooter,PC,193,2008-11-11
+308,Dishonored 2,Action,"PlayStation 4, Xbox One, PC",258,2004-11-16
+309,LEGO Batman: The Videogame,Action-Adventure,"Wii U, PlayStation 2, PlayStation 3, PlayStation Portable, Xbox 360, PlayStation 4, Xbox One, PC, Wii, Xbox Series X",212,2016-11-11
+310,Pokémon Sword/Shield,RPG,Switch,342,2008-09-23
+311,Jak 3,3D Platformer,"PlayStation 2, PlayStation 3, PlayStation Vita, PlayStation 4, PlayStation 5, backwards-compatible PlayStation 3",214,2019-11-15
+312,Super Smash Bros. for Wii U,Brawler,Wii U,457,2004-11-09
+313,The Legend of Zelda: Link's Awakening (2019),Action-Adventure,Switch,215,2014-11-21
+314,Brawlhalla,Brawler,"PlayStation 4, Xbox One, PC, Android, iOS, Macintosh, Switch",371,2019-09-20
+315,Super Smash Bros. for 3DS,Brawler,"Nintendo 3DS, New Nintendo 3DS",403,2015-01-01
+316,Sonic the Hedgehog (2006),3D Platformer,"PlayStation 3, Xbox 360",245,2014-09-14
+317,Super Paper Mario,RPG,"Wii U, Wii",174,2006-11-14
+318,Final Fantasy,RPG,"Wii Virtual Console, Game Boy Advance, Nintendo 3DS, PlayStation, PlayStation Portable, PC, Windows Phone, WonderSwan, MSX2, Wii U Virtual Console",272,2007-04-09
+319,Hearts of Iron IV,Strategy,PC,410,1987-12-18
+320,Kirby Air Ride,Racing,"GameCube, Wii",263,2016-06-06
+321,Ori and the Will of the Wisps,Action-Adventure,"Xbox One, PC, Switch",232,2003-07-11
+322,Pokémon Let's Go Pikachu/Eevee,RPG,Switch,243,2020-03-11
+323,Call of Duty 4: Modern Warfare,First-person shooter,"PlayStation 3, Xbox 360, Xbox One, PC, Wii",360,2018-11-16
+324,Call of Duty: Black Ops III,First-person shooter,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC",303,2007-11-05
+325,Paper Mario: The Thousand-Year Door,RPG,GameCube,179,2015-11-06
+326,HuniePop,Puzzle,PC,303,2004-07-22
+327,Sonic Heroes,3D Platformer,"GameCube, PlayStation 2, PlayStation 3, Xbox",193,2015-01-19
+328,Diablo III: Reaper of Souls,Action,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Switch",408,2003-12-30
+329,Crash Bandicoot 4: It's About Time,3D Platformer,"PlayStation 4, Xbox One, PC, Switch, Xbox One X, PlayStation 4 Pro, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S, PS5 for backward compatible games",202,2014-03-25
+330,Batman: Arkham Asylum,Action-Adventure,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Xbox One X, Playstation Now, Xbox One S, PlayStation 5, Xbox Series X, Xbox Series S",237,2020-10-02
+331,Grey-Box Testing,Puzzle,"PC, Web",275,2009-08-25
+332,Batman: Arkham Knight,Action-Adventure,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",288,2020-01-20
+333,Mario Super Sluggers,Sports,"Wii, Wii U Virtual Console",307,2015-06-23
+334,ROBLOX: Cool Obby 2,Misc,"Xbox One, PC, Android, iOS, Macintosh",302,2008-06-19
+335,Super Mario Maker,2D Platformer,Wii U,423,2008-10-18
+336,Silent Hill 2,Horror,"PlayStation 2, PlayStation 3, Xbox 360, Xbox, Xbox One, PC, Playstation Now",233,2015-09-10
+337,Final Fantasy IX,RPG,"PlayStation 2, PlayStation, PlayStation 3, PlayStation 4, Xbox One, PC, Playstation TV, Switch, PlayStation 5",288,2001-09-24
+338,Crash Bash,Misc,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PlayStation Vita, Playstation TV",308,2000-01-01
+339,Bloodstained: Curse of the Moon,Action,"Nintendo 3DS, PlayStation Vita, PlayStation 4, Xbox One, PC, Switch",257,2000-11-06
+340,God of War III,Action,"PlayStation 3, PlayStation 4, PlayStation 5",199,2018-05-24
+341,Ultimate Doom,First-person shooter,PC,299,2010-03-16
+342,Horizon Zero Dawn,Action,"PlayStation 4, PC, PlayStation 5",156,1993-12-10
+343,Mario Golf: Toadstool Tour,Sports,"GameCube, Wii",201,2017-02-28
+344,Teenage Mutant Ninja Turtles IV: Turtles in Time,Brawler,Super Nintendo,210,2003-07-29
+345,Spore,Strategy,PC,324,1991-01-01
+346,Call of Duty: Modern Warfare Remastered,First-person shooter,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",394,2008-09-04
+347,Bastion,Action-Adventure,"Xbox 360, PlayStation Vita, PlayStation 4, Xbox One, PC, iOS, Switch",253,2016-11-04
+348,Castlevania: Aria of Sorrow,Action,"Game Boy Advance, PlayStation 4, Xbox One, PC, Wii U Virtual Console, Game Boy Player, Game Boy Interface, Switch, PlayStation 5, Xbox Series X, Xbox Series S",209,2011-07-20
+349,Psychonauts,3D Platformer,"PlayStation 2, PlayStation 3, Xbox 360, Xbox, PlayStation 4, Xbox One, PC, Xbox Series X, Xbox Series S",182,2003-05-06
+350,Kirby Super Star,2D Platformer,"Super Nintendo, Wii Virtual Console, Wii U, Wii, Wii U Virtual Console, SNES Classic Mini, Switch Virtual Console",185,2005-04-19
+351,Limbo,Puzzle,"PlayStation 3, Xbox 360, PlayStation Vita, PlayStation 4, Xbox One, PC, Android, iOS, Macintosh, Switch, PlayStation 5, Xbox Series X",238,1996-03-21
+352,Nuclear Throne,Roguelike,PC,320,2010-01-01
+353,Geometry Dash Meltdown,2D Platformer,"Android, iOS",417,2015-12-05
+354,ROBLOX: Survive and Kill the Killers in Area 51,Horror,"Xbox One, PC, Android, iOS, Macintosh",234,2015-12-19
+355,Warframe,Action,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X",443,2014-04-30
+356,N++,2D Platformer,"PlayStation 4, Xbox One, PC, Switch",346,2013-03-25
+357,BattleBlock Theater,2D Platformer,"Xbox 360, Xbox One, PC",256,2015-07-28
+358,Silent Hill 3,Horror,"PlayStation 2, PlayStation 3, Xbox 360, PC",251,2013-01-01
+359,Strider (NES),2D Platformer,"Nintendo Entertainment System, Game Boy Advance",270,2003-01-01
+360,The Last of Us Part II,Action,"PlayStation 4, PlayStation 5",271,1989-01-01
+361,Risk of Rain,Roguelike,"PlayStation Vita, PlayStation 4, PC, Switch",276,2020-06-19
+362,Piano Tiles 2,Rhythm,"Android, iOS, Windows Phone",379,2013-01-01
+363,Super Mario Kart,Racing,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, New Nintendo 3DS Virtual Console, Switch, SNES Classic Mini",299,2015-08-19
+364,Pencil Sharpening Simulator,Misc,"PC, Web",366,1992-08-27
+365,Ori and the Blind Forest,Action-Adventure,"Xbox One, PC",139,2015-01-01
+366,ULTRAKILL,First-person shooter,PC,279,2015-03-11
+367,Harry Potter and the Prisoner of Azkaban (PC),Action-Adventure,PC,152,2019-08-30
+368,Kingdom Hearts Birth by Sleep 0.2: A Fragmentary Passage,RPG,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, PlayStation 5, Xbox Series X",262,2004-01-01
+369,Wubbzy's Amazing Adventure,2D Platformer,Web,197,2017-01-12
+370,Super Smash TV,Action,"Super Nintendo, SNES Classic Mini, MiSTer, Analogue Super Nt",172,2006-08-01
+371,Hyper Light Drifter,Action-Adventure,"PlayStation 4, Xbox One, PC, iOS, Switch",227,1992-02-01
+372,ROBLOX: HOURS,Action,"Xbox, PC, Android, iOS, Macintosh",224,2016-03-31
+373,How To Rob A Gas Station,Misc,"PC, Web, Macintosh, Linux",474,2020-09-25
+374,DOOM,First-person shooter,"PlayStation 4, Xbox One, PC, Switch",176,2022-01-20
+375,Five Nights at Freddy's,Horror,"PlayStation 4, Xbox One, PC, Android, iOS, Windows Phone, Switch",246,2016-05-13
+376,Call of Duty: Infinite Warfare Zombies,First-person shooter,"PlayStation 4, Xbox One, PC",436,2014-08-08
+377,The Little Mermaid,Action-Adventure,Nintendo Entertainment System,250,2016-11-03
+378,Ghostrunner,Parkour,"PlayStation 4, Xbox One, PC, Switch",210,1991-07-19
+379,Kingdom Hearts III,RPG,"PlayStation 4, Xbox One, PC, Xbox One X, PlayStation 4 Pro, PlayStation 5, Xbox Series X, Xbox Series S",232,2020-10-10
+380,Monster Hunter: World (Console),Action,"PlayStation 4, Xbox One, Xbox One X, PlayStation 4 Pro, PlayStation 5, Xbox Series X",411,2019-01-25
+381,Amnesia: The Dark Descent,Horror,"PlayStation 4, Xbox One, PC, Macintosh, Linux, Switch",196,2018-01-26
+382,Wii Sports Club,Sports,Wii U,324,2010-01-01
+383,Mario Party,Misc,Nintendo 64,336,2013-10-30
+384,Star Wars Jedi Knight: Jedi Academy,Action-Adventure,PC,118,1998-12-18
+385,CELESTE Classic 2,2D Platformer,"PC, Web, PICO-8",273,2003-09-17
+386,DOOM Eternal,First-person shooter,"PlayStation 4, Xbox One, PC, Switch, Google Stadia, PlayStation 5, Xbox Series X",196,2021-01-25
+387,Teenage Mutant Ninja Turtles,Brawler,"Nintendo Entertainment System, Wii Virtual Console",176,2020-03-20
+388,Job Simulator,Misc,"PlayStation 4, HTC Vive, Oculus VR, Valve Index, Windows Mixed Reality",306,1989-05-12
+389,Sonic the Hedgehog 2,2D Platformer,"GameCube, Wii Virtual Console, Sega Genesis, Sega Saturn, Nintendo 3DS, PlayStation 2, PlayStation 3, PlayStation Portable, Xbox 360, Xbox, PlayStation 4, Xbox One, PC, Switch",187,2016-04-05
+390,Tony Hawk's Underground 2,Sports,"GameCube, PlayStation 2, Xbox 360, Xbox, PC",225,1992-11-21
+391,Pikmin,Strategy,"GameCube, Wii",150,2004-10-04
+392,Rabi-Ribi,2D Platformer,"PlayStation Vita, PlayStation 4, PC, Switch",179,2001-10-26
+393,Ape Escape,3D Platformer,"PlayStation 2, PlayStation, PlayStation 3, PlayStation Vita, Playstation TV, PSN Download",157,2016-01-29
+394,Cleaning Simulator,Misc,"Xbox One, PC, Android, iOS, Macintosh",308,1999-05-31
+395,God of War,Action,"PlayStation 2, PlayStation 3, PlayStation Vita",155,2017-07-07
+396,Fallout 3,RPG,"PlayStation 3, Xbox 360, Xbox One, PC",194,2005-03-22
+397,LEGO Star Wars: The Video Game,Action-Adventure,"GameCube, PlayStation 2, Xbox, PC",181,2008-10-28
+398,Google Whirlybird,Misc,Android,358,2005-04-02
+399,The Legend of Zelda: Ocarina of Time 3D,Action-Adventure,Nintendo 3DS,234,2019-09-05
+400,Marble Madness (NES),Puzzle,Nintendo Entertainment System,192,2011-06-16
+401,Ratchet & Clank (PS4),Action,"PlayStation 4, PlayStation 4 Pro, PS5 for backward compatible games",130,1989-01-01
+402,Jump Rope Challenge,Misc,Switch,384,2016-04-12
+403,The Sims 4,Strategy,"PlayStation 4, Xbox One, PC, Macintosh",388,2020-06-15
+404,The End Is Nigh,2D Platformer,"PlayStation 4, PC, Switch",186,2014-09-02
+405,Lufia II: Rise of the Sinistrals,RPG,Super Nintendo,60,2017-07-12
+406,Flow Free,Puzzle,"PC, Android, iOS",14,1995-01-01
+407,Kirby's Adventure,2D Platformer,"Nintendo Entertainment System, Wii Virtual Console, Wii U, Nintendo 3DS, Wii, Wii U Virtual Console, NES Classic Mini, Switch",200,2012-06-07
+408,Furi,Action,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5",183,1993-03-23
+409,Pokémon Yellow,RPG,"Game Boy Color, Game Boy Advance, Nintendo 3DS Virtual Console, Game Boy Player, Super Game Boy 2, New Nintendo 3DS Virtual Console, Game Boy Interface",240,2016-07-05
+410,Pac-Man World 2,3D Platformer,"GameCube, PlayStation 2, Xbox, PC",123,1998-09-12
+411,Genshin Impact,Action-Adventure,"PlayStation 4, PC, Android, iOS, PlayStation 5",293,2002-02-24
+412,Super Ghouls 'n Ghosts,Action,"Super Nintendo, Wii Virtual Console, Sega Saturn, PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, Xbox, Wii U Virtual Console, Switch, SNES Classic Mini",199,2020-09-28
+413,FNaF World,RPG,"PC, Android",180,1991-10-04
+414,Hanabi,Strategy,"Web, Tabletop",339,2016-01-21
+415,DEVOUR,Horror,PC,224,2010-01-01
+416,Wizard of Legend,Roguelike,"PlayStation 4, Xbox One, PC, Switch",290,2021-01-28
+417,Minecraft: Java Edition (Historical Versions),Sandbox,"PC, Macintosh, Linux",293,2018-05-15
+418,Mike Tyson's Punch-Out!!,Sports,"Nintendo Entertainment System, Wii Virtual Console, Nintendo 3DS, Wii U Virtual Console, NES Classic Mini, Switch, MiSTer",127,2009-05-13
+419,Katamari Damacy Reroll,Misc,"PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X, Xbox Series S",121,1987-01-01
+420,Call of Duty: Modern Warfare 2 Remastered,First-person shooter,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",289,2018-11-21
+421,Kirby: Planet Robobot,2D Platformer,"Nintendo 3DS, New Nintendo 3DS",211,2020-03-31
+422,SCP Containment Breach,Horror,PC,260,2016-04-28
+423,Mega Man Legacy Collection 1 + 2,2D Platformer,"Nintendo 3DS, PlayStation 4, Xbox One, PC, Switch",337,2012-04-15
+424,SUPERHOT,First-person shooter,"PlayStation 4, Xbox One, PC, Switch, Google Stadia, PlayStation 5, Xbox Series X",221,2015-08-24
+425,Final Fantasy VIII,RPG,"PlayStation 2, PlayStation, PlayStation 3, PlayStation 4, Xbox One, PC, Playstation TV, Switch, PlayStation 5, Xbox Series X",257,2016-02-25
+426,The Forest,Horror,"PlayStation 4, PC",295,1999-01-01
+427,Jet Set Radio,Action,"Dreamcast, PlayStation 3, Xbox 360, PlayStation Vita, Xbox One, PC",144,2014-05-30
+428,Chess.com,Strategy,"Android, iOS, Windows Phone, Web",254,2000-06-29
+429,Kirby's Return to Dream Land,2D Platformer,"Wii U, Wii",213,2007-05-07
+430,Batman: The Video Game (NES),Brawler,Nintendo Entertainment System,121,2011-10-24
+431,Kirby & The Amazing Mirror,2D Platformer,"Game Boy Advance, Nintendo DS, Nintendo 3DS Virtual Console, Wii U Virtual Console, Game Boy Player",114,1989-12-22
+432,Okami,Action-Adventure,"PlayStation 2, PlayStation 3, PlayStation 4, Xbox One, PC, Wii, Switch, PlayStation 5",103,2004-04-15
+433,Yooka-Laylee,3D Platformer,"PlayStation 4, Xbox One, PC, Switch",149,2006-04-20
+434,Bully: Scholarship Edition,Sandbox,"Xbox 360, Xbox One, PC, Wii",159,2017-04-11
+435,God of War II,Action,"PlayStation 2, PlayStation 3, PlayStation Vita",162,2008-03-04
+436,Shantae and the Pirate's Curse,2D Platformer,"Wii U, Nintendo 3DS, PlayStation 4, Xbox One, PC, Wii U Virtual Console, Switch",180,2007-03-13
+437,Back 4 Blood,First-person shooter,"PlayStation 4, Xbox One, PC, PlayStation 5, Xbox Series X, Xbox Series S",253,2014-10-23
+438,The Last of Us: Left Behind,Action,"PlayStation 3, PlayStation 4, PlayStation 4 Pro, PlayStation 5",167,2021-10-07
+439,Johnny Upgrade,2D Platformer,Web,193,2014-02-14
+440,ROBLOX: Isle,Misc,"Xbox One, PC, Android, iOS, Macintosh",297,2012-01-01
+441,S.T.A.L.K.E.R.: Shadow of Chernobyl,Action,PC,134,2019-04-21
+442,Shrek 2,3D Platformer,PC,123,2007-03-20
+443,Club Penguin,Misc,Web,187,2004-05-03
+444,Devil May Cry 3: Special Edition,Action,"PlayStation 2, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Switch, PlayStation 5, Xbox Series X",177,2017-03-29
+445,The Legend of Zelda: A Link Between Worlds,Action-Adventure,Nintendo 3DS,190,2006-01-24
+446,Marble It Up!,Puzzle,"PC, iOS, Macintosh, Switch",76,2013-11-22
+447,Ty the Tasmanian Tiger,3D Platformer,"GameCube, PlayStation 2, Xbox, PlayStation 4, Xbox One, PC, Switch",179,2018-09-29
+448,Uncharted: Drake's Fortune,Action,"PlayStation 3, PlayStation 4, PlayStation 5",166,2002-09-10
+449,ROBLOX: Dungeon Quest,Action-Adventure,"Xbox One, PC, Android, iOS, Macintosh",379,2007-11-19
+450,Resident Evil HD Remaster (Steam),Horror,PC,520,2018-09-25
+451,Disney's Aladdin (SNES),2D Platformer,"Super Nintendo, PlayStation 4, Xbox One, PC, Switch",197,2015-01-20
+452,Goof Troop,Action-Adventure,Super Nintendo,176,1993-01-01
+453,Ring Fit Adventure,Misc,Switch,226,1993-07-11
+454,F-Zero,Racing,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, Switch, SNES Classic Mini",305,2019-10-18
+455,Terranigma,RPG,"Super Nintendo, SNES Classic Mini, Analogue Super Nt",135,1990-11-21
+456,Rocket League Sideswipe,Sports,"Android, iOS",304,1995-10-20
+457,Contra III: The Alien Wars,Action,"Super Nintendo, Wii Virtual Console, Wii U Virtual Console, Switch, SNES Classic Mini",179,2021-11-15
+458,Clubhouse Games: 51 Worldwide Classics,Misc,Switch,260,1992-01-01
+459,Kirby 64: The Crystal Shards,2D Platformer,"Nintendo 64, Wii Virtual Console, Wii U, Wii, Wii U Virtual Console",156,2020-06-05
+460,Mario Golf: Super Rush,Sports,Switch,270,2000-03-24
+461,The Legend of Zelda: Twilight Princess HD,Action-Adventure,Wii U,146,2021-06-25
+462,Ape Escape 2,3D Platformer,"PlayStation 2, PlayStation 4, Playstation Now, backwards-compatible PlayStation 3, PS5 for backward compatible games",114,2016-03-04
+463,Left 4 Dead 2,First-person shooter,"Xbox 360, Xbox One, PC, Macintosh, Linux, Xbox Series X, Xbox Series S",203,2002-07-18
+464,"Ooh, Aah & You: Fetch-A-Fruit",Misc,Web,257,2009-11-17
+465,Rayman,2D Platformer,"Sega Saturn, Game Boy Advance, Nintendo DS, Nintendo 3DS, PlayStation 2, PlayStation, PlayStation 3, PlayStation Portable, PC, MS-DOS, Android, iOS, Atari Jaguar, Playstation Classic",126,2005-07-15
+466,Easy Obby!,Parkour,"Xbox One, PC, Android, iOS, Macintosh, Xbox Series X, Xbox Series S",318,1995-09-01
+467,Hotline Miami 2: Wrong Number,Action,"PlayStation 3, Xbox 360, PlayStation Vita, PlayStation 4, Xbox One, PC, Android, Macintosh, Switch, Xbox Series X",125,2020-11-19
+468,Castle Crashers,Brawler,"PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC, Switch",188,2015-03-10
+469,Street Fighter V: Champion Edition,Brawler,"PlayStation 4, PC, PlayStation 4 Pro, PlayStation 5",221,2008-08-27
+470,Castlevania II: Simon's Quest,2D Platformer,"Nintendo Entertainment System, Wii Virtual Console, PlayStation 4, Xbox One, PC, Famicom Disk System, Wii U Virtual Console, NES Classic Mini, Switch",177,2016-02-16
+471,Granny: Chapter Two,Horror,"Android, iOS",193,1987-08-28
+472,Golf It!,Sports,PC,288,2019-09-06
+473,Timberman VS,Misc,"Nintendo 3DS, PlayStation 4, Xbox One, PC, New Nintendo 3DS, Macintosh, Linux, Switch, PlayStation 5, Xbox Series X, Xbox Series S, Nintendo Switch Lite",339,2017-02-17
+474,Animal Crossing,Misc,"GameCube, Wii",192,2018-05-03
+475,Trackmania,Racing,PC,282,2002-09-15
+476,Hitman 3,Action,"PlayStation 4, Xbox One, PC, Switch, Google Stadia, PlayStation 5, Xbox Series X, Xbox Series S",293,2020-07-01
+477,Octodad: Dadliest Catch,Misc,"Wii U, PlayStation Vita, PlayStation 4, Xbox One, PC, Android, iOS, Switch, PlayStation 5",208,2021-01-20
+478,Pokémon FireRed/LeafGreen,RPG,"Game Boy Advance, Nintendo DS, Game Boy Player, Game Boy Interface",187,2014-01-01
+479,Fallout 4,RPG,"PlayStation 4, Xbox One, PC",146,2004-01-29
+480,Bugsnax,First-person shooter,"PlayStation 4, PC, Macintosh, PlayStation 5",175,2015-11-10
+481,Super Mario All-Stars,2D Platformer,"Super Nintendo, Wii U, Wii, Switch",198,2020-11-12
+482,Sesame Street Fighter,Brawler,PC,340,1993-07-14
