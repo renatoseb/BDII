@@ -48,7 +48,7 @@ public:
     // Operations
     void insert(RecordType record) override;                                        // TODO
     bool remove(char *key) override;                                                // TODO
-    RecordType search(char *key) override;
+    RecordType search(TypeKey key) override;
     vector<RecordType> rangesearch(TypeKey initialKey, TypeKey endKey) override; 
 
     // Utils
