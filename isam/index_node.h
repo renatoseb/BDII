@@ -19,7 +19,7 @@ template <typename TypeKey, typename RecordType> struct IndexPage {
     size++;
   }
 
-  void readPage(std::string fileName) {
+  void readPage(std::string fileName, long pos) {
     std::ifstream index(fileName, std::ios::binary);
     TypeKey key;
     long value;
@@ -38,6 +38,12 @@ template <typename TypeKey, typename RecordType> struct IndexPage {
     int l = 0;
     int r = size;
     return entries[findPage(l, r, key)].second;
+  }
+
+  int findEntry(TypeKey key) {
+    int l = 0;
+    int r = size;
+    return findPage(l, r, key);
   }
 
   int findPage(int l, int r, TypeKey key) {

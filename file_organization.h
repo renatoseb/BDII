@@ -62,7 +62,7 @@ public:
   virtual RecordType search(TypeKey key) = 0;
   virtual std::vector<RecordType> searchInRange(TypeKey initialKey,
                                                 TypeKey endKey) = 0;
-  virtual bool remove(char *key) = 0;
+  virtual bool remove(TypeKey key) = 0;
 };
 
 #endif
