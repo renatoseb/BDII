@@ -10,13 +10,13 @@ using namespace std;
 void testBTree(string dataFile)
 {
     cout << "Running test of B+Tree\n";
-    BPTree<int, GameData> *dataset = insertTest("data.dat");
-    searchTest(dataset);
+    BPTree<int, GameData> *dataset = insertBPTreeTest("data.dat");
+    searchBTreeTest(dataset);
     rangeSearchTest(dataset); 
        
 }
 
-BPTree<int, GameData>* insertTest(string filename)
+BPTree<int, GameData>* insertBPTreeTest(string filename)
 {
     auto begin = chrono::high_resolution_clock::now();
 
@@ -40,7 +40,7 @@ BPTree<int, GameData>* insertTest(string filename)
    
 }
 
-void searchTest(BPTree<int, GameData> *btree)
+void searchBTreeTest(BPTree<int, GameData> *btree)
 {
     auto begin =  chrono::high_resolution_clock::now();
     
@@ -59,7 +59,7 @@ void rangeSearchTest(BPTree<int, GameData> *btree)
 {
     auto begin =  chrono::high_resolution_clock::now();
     
-    vector<GameData> search3 = btree->rangesearch(369, 400);
+    vector<GameData> search3 = btree->searchInRange(369, 400);
 
     auto final = chrono::high_resolution_clock::now();
     auto searchRangeTime = chrono::duration_cast<chrono::seconds>(final - begin).count();
