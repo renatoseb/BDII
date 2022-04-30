@@ -48,14 +48,14 @@ RecordType BPTree<TypeKey, RecordType>::searchRec(NodeB<TypeKey> *node, char *ke
 }
 
 template<typename TypeKey, typename RecordType>
-RecordType BPTree<TypeKey, RecordType>::search(char *key)
+RecordType BPTree<TypeKey, RecordType>::search(TypeKey key)
 {
     return searchRec(root, key);
 }
 
 
 template<typename TypeKey, typename RecordType>
-vector<RecordType> BPTree<TypeKey, RecordType>::rangesearch(TypeKey initialKey, TypeKey endKey)
+vector<RecordType> BPTree<TypeKey, RecordType>::searchInRange(TypeKey initialKey, TypeKey endKey)
 {
     try
         {

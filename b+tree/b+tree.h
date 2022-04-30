@@ -22,7 +22,11 @@ private:
 
 public:
     BPTree(std::string file, std::string index)
-      : fileName{file}, indexName{index} {}
+      : fileName{file}, indexName{index} 
+      {
+          // code
+          this->root = readNode(0, this->dataFile);
+      }
     BPTree(std::string file);
     ~BPTree();
 
