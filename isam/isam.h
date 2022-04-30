@@ -25,7 +25,7 @@ public:
   void writeIndex() override;
   void readIndex() override;
 
-  void compressFile();
+  RecordType search(long pagePos, TypeKey key) void compressFile();
   void writeData(DataPage<TypeKey, RecordType> page);
   void writeData(DataPage<TypeKey, RecordType> page, long physicalPos);
 
@@ -76,8 +76,20 @@ void IsamSparse<TypeKey, RecordType>::insert(RecordType record) {
 
   if (dataPage.size == dataPage.getMaxSize()) {
     if (indexPage.size == indexPage.getMaxSize()) {
-      dataPage.insert(record);
+      // overflow
+      DataPage<TypeKey, RecordType> ovfPage;
+      ovfPage.next = dataPos;
+      ovfPage.key = dataPage.key;
+      ovfPage.insert(record);
+
+      std::ofstream file(dataFile, std::ios::app | std::ios::binary);
+      long dataPos2 = file.tellp();
+      writePage(ovfPage, dataPos2);
+
+      auto indexEntry = indexPage.findEntry(record.getKey());
+      indexPage[indexEntry].second = dataPos2;
     } else {
+      // break page
       auto dividedPages = dataPage.breakPage();
       writeData(dividedPages.first, dataPos);
 
@@ -87,6 +99,10 @@ void IsamSparse<TypeKey, RecordType>::insert(RecordType record) {
       writePage(dividedPages.second, dataPos2);
       indexPage.insert(dividedPages.second.key, dataPos2);
     }
+  } else {
+    // just insert
+    dataPage.insert(record);
+    writeData(dataPage, dataPos);
   }
 }
 
@@ -100,6 +116,22 @@ RecordType IsamSparse<TypeKey, RecordType>::search(TypeKey key) {
     if (record.getKey() == key)
       return record;
   }
+  if (dataPage.next != -1)
+    return search(dataPage.next, key);
+  throw std::invalid_argument("Key value is not found");
+}
+
+template <typename TypeKey, typename RecordType>
+RecordType IsamSparse<TypeKey, RecordType>::search(long pagePos, TypeKey key) {
+  DataPage<TypeKey, RecordType> dataPage;
+  dataPage.readPage(dataFile, pagePos);
+
+  for (auto &record : dataPage.records) {
+    if (record.getKey() == key)
+      return record;
+  }
+  if (dataPage.next != -1)
+    return search(pagePos, key);
   throw std::invalid_argument("Key value is not found");
 }
 
@@ -107,6 +139,7 @@ template <typename TypeKey, typename RecordType>
 std::vector<RecordType>
 IsamSparse<TypeKey, RecordType>::searchInRange(TypeKey initialKey,
                                                TypeKey endKey) {
+  //agregar overflow
   std::vector<RecordType> searchResult;
   auto initialEntryPos = indexPage.findEntry(initialKey);
   auto endEntryPos = indexPage.findEntry(endKey);
@@ -127,6 +160,7 @@ IsamSparse<TypeKey, RecordType>::searchInRange(TypeKey initialKey,
 
 template <typename TypeKey, typename RecordType>
 bool IsamSparse<TypeKey, RecordType>::remove(TypeKey key) {
+  //agregar overflow
   auto pagePos = indexPage.findPage(key);
   DataPage<TypeKey, RecordType> dataPage;
   dataPage.readPage(dataFile, pagePos);
