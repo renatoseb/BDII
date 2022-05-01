@@ -76,6 +76,16 @@
      <string>Delete</string>
     </property>
    </widget>
+   <widget class="QTableView" name="recordTable">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>691</width>
+      <height>301</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

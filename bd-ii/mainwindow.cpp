@@ -19,4 +19,3 @@ void MainWindow::on_searchBtn_clicked()
     QString title = ui->editTitle->text();
     this->setWindowTitle(title);
 }
-

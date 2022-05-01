@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QListView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
@@ -27,6 +28,7 @@ public:
     QPushButton *rangeBtn;
     QPushButton *insertBtn;
     QPushButton *deleteBtn;
+    QListView *listView;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -50,6 +52,9 @@ public:
         deleteBtn = new QPushButton(centralwidget);
         deleteBtn->setObjectName(QString::fromUtf8("deleteBtn"));
         deleteBtn->setGeometry(QRect(660, 180, 81, 41));
+        listView = new QListView(centralwidget);
+        listView->setObjectName(QString::fromUtf8("listView"));
+        listView->setGeometry(QRect(50, 250, 691, 301));
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
