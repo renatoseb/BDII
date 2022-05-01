@@ -25,15 +25,35 @@ public:
   void writeIndex() override;
   void readIndex() override;
 
-  RecordType search(long pagePos, TypeKey key) void compressFile();
+  RecordType search(long pagePos, TypeKey key);
   void writeData(DataPage<TypeKey, RecordType> page);
   void writeData(DataPage<TypeKey, RecordType> page, long physicalPos);
+  std::vector<RecordType> scanIndexEntry(long pagePos);
+  bool remove(long pagePos, TypeKey key);
 
 private:
   std::string dataFile;
   std::string indexFile;
   IndexPage<TypeKey, RecordType> indexPage;
 };
+
+template <typename TypeKey, typename RecordType>
+std::vector<RecordType>
+IsamSparse<TypeKey, RecordType>::scanIndexEntry(long pagePos) {
+  std::vector<RecordType> scanResult;
+  auto dataPage = DataPage<TypeKey, RecordType>(dataFile, pagePos);
+
+  for (auto &record : dataPage.records) {
+    scanResult.push_back(record);
+  }
+  if (dataPage.next != -1) {
+    auto tempResults = scanIndexEntry(dataPage.next);
+    for (auto &record : tempResults)
+      scanResult.push_back(record);
+  }
+
+  return scanResult;
+}
 
 template <typename TypeKey, typename RecordType>
 IsamSparse<TypeKey, RecordType>::IsamSparse(std::string file) : dataFile{file} {
@@ -53,6 +73,9 @@ template <typename TypeKey, typename RecordType>
 void IsamSparse<TypeKey, RecordType>::writeData(
     DataPage<TypeKey, RecordType> page) {
   std::ofstream file(dataFile, std::ios::app | std::ios::binary);
+  file.write((char *)page.next, sizeof(page.next));
+  file.write((char *)page.size, sizeof(page.size));
+  file.write((char *)page.key, sizeof(page.key));
   for (auto &record : page.records) {
     file.write((char *)record, sizeof(record));
   }
@@ -70,47 +93,45 @@ void IsamSparse<TypeKey, RecordType>::writeData(
 
 template <typename TypeKey, typename RecordType>
 void IsamSparse<TypeKey, RecordType>::insert(RecordType record) {
-  DataPage<TypeKey, RecordType> dataPage;
-  auto dataPos = indexPage.findPage(record.getKey());
-  dataPage.readPage(dataFile, dataPos);
+  auto pagePos = indexPage.findPage(record.getKey());
+  auto dataPage = DataPage<TypeKey, RecordType>(dataFile, pagePos);
 
   if (dataPage.size == dataPage.getMaxSize()) {
     if (indexPage.size == indexPage.getMaxSize()) {
       // overflow
       DataPage<TypeKey, RecordType> ovfPage;
-      ovfPage.next = dataPos;
+      ovfPage.next = pagePos;
       ovfPage.key = dataPage.key;
       ovfPage.insert(record);
 
       std::ofstream file(dataFile, std::ios::app | std::ios::binary);
-      long dataPos2 = file.tellp();
-      writePage(ovfPage, dataPos2);
+      long pagePos2 = file.tellp();
+      writeData(ovfPage, pagePos2);
 
       auto indexEntry = indexPage.findEntry(record.getKey());
-      indexPage[indexEntry].second = dataPos2;
+      indexPage[indexEntry].second = pagePos2;
     } else {
       // break page
       auto dividedPages = dataPage.breakPage();
-      writeData(dividedPages.first, dataPos);
+      writeData(dividedPages.first, pagePos);
 
       std::ofstream file(dataFile, std::ios::app | std::ios::binary);
-      long dataPos2 = file.tellp();
+      long pagePos2 = file.tellp();
 
-      writePage(dividedPages.second, dataPos2);
-      indexPage.insert(dividedPages.second.key, dataPos2);
+      writeData(dividedPages.second, pagePos2);
+      indexPage.insert(dividedPages.second.key, pagePos2);
     }
   } else {
     // just insert
     dataPage.insert(record);
-    writeData(dataPage, dataPos);
+    writeData(dataPage, pagePos);
   }
 }
 
 template <typename TypeKey, typename RecordType>
 RecordType IsamSparse<TypeKey, RecordType>::search(TypeKey key) {
   auto pagePos = indexPage.findPage(key);
-  DataPage<TypeKey, RecordType> dataPage;
-  dataPage.readPage(dataFile, pagePos);
+  auto dataPage = DataPage<TypeKey, RecordType>(dataFile, pagePos);
 
   for (auto &record : dataPage.records) {
     if (record.getKey() == key)
@@ -123,8 +144,7 @@ RecordType IsamSparse<TypeKey, RecordType>::search(TypeKey key) {
 
 template <typename TypeKey, typename RecordType>
 RecordType IsamSparse<TypeKey, RecordType>::search(long pagePos, TypeKey key) {
-  DataPage<TypeKey, RecordType> dataPage;
-  dataPage.readPage(dataFile, pagePos);
+  auto dataPage = DataPage<TypeKey, RecordType>(dataFile, pagePos);
 
   for (auto &record : dataPage.records) {
     if (record.getKey() == key)
@@ -139,20 +159,16 @@ template <typename TypeKey, typename RecordType>
 std::vector<RecordType>
 IsamSparse<TypeKey, RecordType>::searchInRange(TypeKey initialKey,
                                                TypeKey endKey) {
-  //agregar overflow
   std::vector<RecordType> searchResult;
   auto initialEntryPos = indexPage.findEntry(initialKey);
   auto endEntryPos = indexPage.findEntry(endKey);
 
   for (int i = initialEntryPos; i < endEntryPos; ++i) {
     auto pagePos = indexPage.entries[i].second;
-    DataPage<TypeKey, RecordType> dataPage;
-    dataPage.readPage(dataFile, pagePos);
+    auto tempResults = scanIndexEntry(pagePos);
 
-    for (auto &record : dataPage.records) {
-      if (record.getKey() >= initialKey && record.getKey() <= endKey)
-        searchResult.push_back(record);
-    }
+    for (auto &record : tempResults)
+      searchResult.push_back(record);
   }
 
   return searchResult;
@@ -160,10 +176,13 @@ IsamSparse<TypeKey, RecordType>::searchInRange(TypeKey initialKey,
 
 template <typename TypeKey, typename RecordType>
 bool IsamSparse<TypeKey, RecordType>::remove(TypeKey key) {
-  //agregar overflow
   auto pagePos = indexPage.findPage(key);
-  DataPage<TypeKey, RecordType> dataPage;
-  dataPage.readPage(dataFile, pagePos);
+  return remove(pagePos, key);
+}
+
+template <typename TypeKey, typename RecordType>
+bool IsamSparse<TypeKey, RecordType>::remove(long pagePos, TypeKey key) {
+  auto dataPage = DataPage<TypeKey, RecordType>(dataFile, pagePos);
 
   for (int i = 0; i < dataPage.size; ++i) {
     if (dataPage.records[i].getKey() == key) {
@@ -172,7 +191,12 @@ bool IsamSparse<TypeKey, RecordType>::remove(TypeKey key) {
       return true;
     }
   }
-  throw std::invalid_argument("Key value is not found");
+
+  if (dataPage.next != -1) {
+    return remove(dataPage.next, key);
+  } else {
+    throw std::invalid_argument("Key value is not found");
+  }
 }
 
 #endif
