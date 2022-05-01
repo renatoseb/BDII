@@ -23,18 +23,18 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     const uint offsetsAndSize[6];
-    char stringdata0[29];
+    char stringdata0[33];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_MainWindow_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 10), // "MainWindow"
-QT_MOC_LITERAL(11, 16), // "on_btnOK_clicked"
-QT_MOC_LITERAL(28, 0) // ""
+QT_MOC_LITERAL(11, 20), // "on_searchBtn_clicked"
+QT_MOC_LITERAL(32, 0) // ""
 
     },
-    "MainWindow\0on_btnOK_clicked\0"
+    "MainWindow\0on_searchBtn_clicked\0"
 };
 #undef QT_MOC_LITERAL
 
@@ -66,7 +66,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_btnOK_clicked(); break;
+        case 0: _t->on_searchBtn_clicked(); break;
         default: ;
         }
     }

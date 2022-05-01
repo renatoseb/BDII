@@ -11,12 +11,9 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,11 +22,11 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QLabel *label;
     QLineEdit *editTitle;
-    QPushButton *btnOK;
-    QMenuBar *menubar;
-    QStatusBar *statusbar;
+    QPushButton *searchBtn;
+    QPushButton *rangeBtn;
+    QPushButton *insertBtn;
+    QPushButton *deleteBtn;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -38,23 +35,22 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(30, 30, 49, 16));
         editTitle = new QLineEdit(centralwidget);
         editTitle->setObjectName(QString::fromUtf8("editTitle"));
-        editTitle->setGeometry(QRect(30, 50, 341, 21));
-        btnOK = new QPushButton(centralwidget);
-        btnOK->setObjectName(QString::fromUtf8("btnOK"));
-        btnOK->setGeometry(QRect(30, 190, 75, 24));
+        editTitle->setGeometry(QRect(240, 120, 341, 21));
+        searchBtn = new QPushButton(centralwidget);
+        searchBtn->setObjectName(QString::fromUtf8("searchBtn"));
+        searchBtn->setGeometry(QRect(50, 180, 101, 41));
+        rangeBtn = new QPushButton(centralwidget);
+        rangeBtn->setObjectName(QString::fromUtf8("rangeBtn"));
+        rangeBtn->setGeometry(QRect(260, 180, 101, 41));
+        insertBtn = new QPushButton(centralwidget);
+        insertBtn->setObjectName(QString::fromUtf8("insertBtn"));
+        insertBtn->setGeometry(QRect(470, 180, 91, 41));
+        deleteBtn = new QPushButton(centralwidget);
+        deleteBtn->setObjectName(QString::fromUtf8("deleteBtn"));
+        deleteBtn->setGeometry(QRect(660, 180, 81, 41));
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 22));
-        MainWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
 
@@ -64,8 +60,10 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Title", nullptr));
-        btnOK->setText(QCoreApplication::translate("MainWindow", "OK", nullptr));
+        searchBtn->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
+        rangeBtn->setText(QCoreApplication::translate("MainWindow", "Range Search", nullptr));
+        insertBtn->setText(QCoreApplication::translate("MainWindow", "Insert", nullptr));
+        deleteBtn->setText(QCoreApplication::translate("MainWindow", "Delete", nullptr));
     } // retranslateUi
 
 };
