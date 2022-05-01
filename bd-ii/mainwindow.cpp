@@ -13,3 +13,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_btnOK_clicked()
+{
+    QString title = ui->editTitle->text();
+    this->setWindowTitle(title);
+}
+
