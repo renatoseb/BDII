@@ -11,36 +11,37 @@ using namespace std;
 void testBTree(string dataFile)
 {
     cout << "Running test of B+Tree\n";
-    BPTree<int, GameData> *dataset = insertBPTreeTest("data.dat");
-    searchBTreeTest(dataset);
-    rangeSearchTest(dataset); 
+    insertBPTreeTest();
+    // searchBTreeTest(dataset);
+    // rangeSearchTest(dataset); 
        
 }
 
-BPTree<int, GameData>* insertBPTreeTest(string filename)
+void insertBPTreeTest()
 {
 
-    Page<NodeB<int>> btreeIndex("indexbtree.bin"); 
-    BPTree<int, NodeB<int>> bptree(btreeIndex);
-    Page<GameData> records("data.bin");
+    // B+tree Index
+    Page<NodeB<int>> *btreeIndex = new Page<NodeB<int>>("indexbtree.bin"); 
+    BPTree<int, NodeB<int>> bptree(*btreeIndex);
+
+    // Recrods Manager
+    Page<GameData> *records = new Page<GameData>("data.bin");
     vector<GameData *> dataset = readCSV("../datasets/game_data.csv");
 
     auto begin = chrono::high_resolution_clock::now();
-    BPTree<int, GameData> *btree = new BPTree<int, GameData>("data.dat", "index.dat");   
     for(auto i: dataset)
     {
-        btree->insert(*i);
+        records->save(i->id, *i);
+        bptree.insert(i->id);
     }
 
     auto final = chrono::high_resolution_clock::now();
     auto insertsTime = chrono::duration_cast<chrono::seconds>(final - begin).count();
 
     cout << "Time of Insertion: " << insertsTime << " seconds\n";
-    cout << "Reads on disk: " << "----" << " times\n";
-    cout << "Writes on disk: " << "----" << " times\n";
+    cout << "Reads on disk: " << bptree.getReadEntries() + records->getReadEntries() << " times\n";
+    cout << "Writes on disk: " << bptree.getWritesEntries() + records->getWriteEntries() << " times\n";
 
-    return btree;
-   
 }
 
 void searchBTreeTest(BPTree<int, GameData> *btree)

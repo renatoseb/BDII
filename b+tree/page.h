@@ -40,5 +40,25 @@ struct Page:
             file.write(&pivot, sizeof(char));
             writesCount++;
         }        
+
+        RecordType get(long n)
+        {
+            ifstream file(fileName);
+            RecordType newRecord;
+            file.seekg(n * sizeof(RecordType), ios::beg);
+            file.read(reinterpret_cast<char *>(&newRecord), sizeof(RecordType));
+            ++readsCount;
+            return newRecord;
+        }
+
+        int getReadEntries()
+        {
+            return this->readsCount;
+        }
+
+        int getWriteEntries()
+        {
+            return this->writesCount;
+        }
 };
 #endif

@@ -9,7 +9,7 @@
 #include "page.h"
 using namespace std;
 
-const int R = 3, BUCKET_SIZE = 20, BUFFER_SIZE = 4096; // I used random values
+const int R = 3, BUFFER_SIZE = 4096; // I used random values
 
 template<typename TypeKey, typename RecordType>
 class BPTree: public FileOrganization
@@ -28,21 +28,23 @@ public:
     ~BPTree();
 
     // Operations
-    void insert(RecordType record) override;                                        // TODO
-    bool remove(TypeKey key) override;                                                // TODO
-    RecordType search(TypeKey key) override;
-    vector<RecordType> searchInRange(TypeKey initialKey, TypeKey endKey) override; 
+    void insert(TypeKey key);                                        // TODO
+    bool remove(TypeKey key); 
+    RecordType search(TypeKey key);
+    vector<RecordType> searchInRange(TypeKey initialKey, TypeKey endKey); 
 
     // Utils
-    // Bucket<RecordType> readBucket(string file, long address); 
-    NodeB<TypeKey> readNode(string file, long address);         // TODO
-    void writeNode(long pos, nodeB<TypeKey> node);
+    NodeB<TypeKey> readNode(long pos); 
+    void writeNode(long pos, NodeB<TypeKey>& node);
     TypeKey succesor(NodeB<TypeKey>& node); 
-    bool borrowFromSibling(Bucket<RecordType> );
+    bool borrowFromSibling(NodeB<TypeKey>& nodeUnderflow, NodeB<TypeKey>& node, int pos);
     void decreaseHeight(NodeB<TypeKey>& node, NodeB<TypeKey>& nodeUnderflow, int pos);
     void mergeLeaf(NodeB<TypeKey>& node, NodeB<TypeKey> nodeUnderflow, int pos);
     bool mergeWithParent(NodeB<TypeKey>& node, NodeB<TypeKey>& nodeUnderflow, int pos);
     bool borrowFromSibling(NodeB<TypeKey>& nodeUnderflow, NodeB<TypeKey>& node, int pos); 
+    int getReadEntries() { return page.getReadEntries(); }
+    int getWritesEntries() { return page.getWriteEntries(); }
+
 };
 
 

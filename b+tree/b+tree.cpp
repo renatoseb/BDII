@@ -3,13 +3,16 @@
 
 
 template<typename TypeKey, typename RecordType>
-NodeB<TypeKey> readNode(string file, long address)
+void BPTree<TypeKey, RecordType>::writeNode(long pos, NodeB<TypeKey>& node)
 {
-    NodeB<TypeKey> node;
-    ifstram file_(file.c_str(), ios::in | ios::binary);
-    file_.read(reinterpret_cast<char *>(&node), sizeof(node));
-    file_.close();
-    return node;
+    this->page.save(pos, node);
+}
+
+
+template<typename TypeKey, typename RecordType>
+NodeB<TypeKey> BPTree<TypeKey, RecordType>::readNode(long pos)
+{
+    return page.get(pos);
 }
 
 template<typename TypeKey, typename RecordType>
