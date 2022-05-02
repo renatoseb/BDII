@@ -18,24 +18,26 @@ template <typename TypeKey, typename RecordType> struct DataPage {
 
   DataPage(int s, TypeKey k) : size{s}, key{k} {}
 
+  DataPage(std::string fileName, long pos) {
+    std::ifstream data(fileName, std::ios::binary);
+    RecordType record;
+    data.read((char *)&next, sizeof(next));
+    data.read((char *)&size, sizeof(size));
+    data.read((char *)&key, sizeof(key));
+
+    for (int i = 0; i < size; ++i) {
+      data.read((char *)&record, sizeof(record));
+      insert(record);
+    }
+  }
+
   int getMaxSize() {
     return (4096 - 12 - sizeof(TypeKey)) / sizeof(RecordType);
   }
   void insert(RecordType record) {
     records.push_back(record);
+    size++;
     // ordenar records
-  }
-  void readPage(std::string fileName, long pos) {
-    std::ifstream data(fileName, std::ios::binary);
-    RecordType record;
-    int bufferSpace = BUFFER_SIZE;
-    auto recordSize = sizeof(record);
-
-    while (data.read((char *)&record, recordSize) &&
-           bufferSpace >= recordSize) {
-      insert(record);
-      bufferSpace = bufferSpace - recordSize;
-    }
   }
   std::pair<DataPage, DataPage> breakPage() {
     auto mid = size / 2;
