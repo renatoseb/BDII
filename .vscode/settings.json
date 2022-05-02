@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.l": "arm",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "cmath": "cpp"
     }
 }

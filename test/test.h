@@ -3,6 +3,7 @@
 
 #include "../b+tree/b+tree.h"
 #include "record.h"
+#include "page.h"
 #include<chrono>
 
 using namespace std;
@@ -18,11 +19,13 @@ void testBTree(string dataFile)
 
 BPTree<int, GameData>* insertBPTreeTest(string filename)
 {
-    auto begin = chrono::high_resolution_clock::now();
 
-    fstream file(filename);
+    Page<NodeB<int>> btreeIndex("indexbtree.bin"); 
+    BPTree<int, NodeB<int>> bptree(btreeIndex);
+    Page<GameData> records("data.bin");
     vector<GameData *> dataset = readCSV("../datasets/game_data.csv");
 
+    auto begin = chrono::high_resolution_clock::now();
     BPTree<int, GameData> *btree = new BPTree<int, GameData>("data.dat", "index.dat");   
     for(auto i: dataset)
     {

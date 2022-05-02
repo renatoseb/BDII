@@ -4,21 +4,46 @@
 template<typename TypeKey>
 struct NodeB
 {
+public:
     TypeKey keys[R];
     long childrens[R + 1];
+
+    // Current size of keys
     int size;
-    bool isLeaf;
+    long nextNode = 0;
+    // Save the position of node in indexfile 
+    long id; 
+
+    NodeB()
+    {
+        for(int i = 0; i < R+1; ++i)
+            this->childrens[i] = 0; 
+    }
+    bool imLeaf()
+    {
+        return this->childrens[0] == 0;
+    }
+
+    long getChildren(int i)
+    {
+        return this->childrens[i];
+    }
+
+    void insertInNode(int pos, KeyType key) {
+        int i = this->size;
+
+        while (i > pos) 
+        {
+            keys[i] = keys[i - 1];
+            childrens[i + 1] = childrens[i];
+            i--;
+        }
+        keys[i] = key;
+        childrens[i + 1] = childrens[i];
+
+        this->size++;
+    }
 };
 
-template<typename RecordType>
-struct Bucket
-{
-    // Number of records of a bucket
-    RecordType records[BUCKET_SIZE];
-    // Current size of a bucket
-    int size;
-    // Address of next bucket
-    long nextBucket;
-};
 
 #endif
