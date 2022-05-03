@@ -342,3 +342,11 @@ bool BPTree<TypeKey, RecordType>::borrowFromSibling(NodeB<TypeKey>& nodeUnderflo
 	}
 	  return false;
 }
+
+
+template<typename TypeKey, typename RecordType>
+void BPTree<TypeKey, RecordType>::insert(TypeKey key)
+{
+    // TODO
+    NodeB<TypeKey> root = readNode()
+}

@@ -58,8 +58,8 @@ template <typename TypeKey, typename RecordType> struct DataPage {
 
 template <typename TypeKey, typename RecordType> class FileOrganization {
 private:
-  string dataFile;
-  string indexFile;
+  std::string dataFile;
+  std::string indexFile;
 public:
   virtual void readIndex() = 0;
   virtual void writeIndex() = 0;

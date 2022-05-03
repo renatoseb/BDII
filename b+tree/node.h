@@ -1,6 +1,8 @@
 #ifndef NODE_H
 #define NODE_H
 
+const int R = 3; // I used random values
+
 template<typename TypeKey>
 struct NodeB
 {
@@ -29,7 +31,7 @@ public:
         return this->childrens[i];
     }
 
-    void insertInNode(int pos, KeyType key) {
+    void insertInNode(int pos, TypeKey key) {
         int i = this->size;
 
         while (i > pos) 

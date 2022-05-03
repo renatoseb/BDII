@@ -3,19 +3,10 @@
 
 #include "../b+tree/b+tree.h"
 #include "record.h"
-#include "page.h"
+#include "../b+tree/page.h"
 #include<chrono>
 
 using namespace std;
-
-void testBTree(string dataFile)
-{
-    cout << "Running test of B+Tree\n";
-    insertBPTreeTest();
-    // searchBTreeTest(dataset);
-    // rangeSearchTest(dataset); 
-       
-}
 
 void insertBPTreeTest()
 {
@@ -43,6 +34,17 @@ void insertBPTreeTest()
     cout << "Writes on disk: " << bptree.getWritesEntries() + records->getWriteEntries() << " times\n";
 
 }
+
+void testBTree()
+{
+    cout << "Running test of B+Tree\n";
+    insertBPTreeTest();
+    // searchBTreeTest(dataset);
+    // rangeSearchTest(dataset); 
+       
+}
+
+
 
 void searchBTreeTest(BPTree<int, GameData> *btree)
 {

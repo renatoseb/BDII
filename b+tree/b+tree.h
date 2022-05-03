@@ -9,10 +9,10 @@
 #include "page.h"
 using namespace std;
 
-const int R = 3, BUFFER_SIZE = 4096; // I used random values
+
 
 template<typename TypeKey, typename RecordType>
-class BPTree: public FileOrganization
+class BPTree
 {
 private:
     Page<RecordType> page;  
@@ -28,7 +28,7 @@ public:
     ~BPTree();
 
     // Operations
-    void insert(TypeKey key);                                        // TODO
+    void insert(TypeKey key);                                        // In process 
     bool remove(TypeKey key); 
     RecordType search(TypeKey key);
     vector<RecordType> searchInRange(TypeKey initialKey, TypeKey endKey); 
@@ -41,7 +41,6 @@ public:
     void decreaseHeight(NodeB<TypeKey>& node, NodeB<TypeKey>& nodeUnderflow, int pos);
     void mergeLeaf(NodeB<TypeKey>& node, NodeB<TypeKey> nodeUnderflow, int pos);
     bool mergeWithParent(NodeB<TypeKey>& node, NodeB<TypeKey>& nodeUnderflow, int pos);
-    bool borrowFromSibling(NodeB<TypeKey>& nodeUnderflow, NodeB<TypeKey>& node, int pos); 
     int getReadEntries() { return page.getReadEntries(); }
     int getWritesEntries() { return page.getWriteEntries(); }
 
