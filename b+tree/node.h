@@ -16,8 +16,9 @@ public:
     // Save the position of node in indexfile 
     long id; 
 
-    NodeB()
+    NodeB(long id)
     {
+        this->id = id;
         for(int i = 0; i < R+1; ++i)
             this->childrens[i] = 0; 
     }

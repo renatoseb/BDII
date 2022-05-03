@@ -9,13 +9,18 @@
 #include "page.h"
 using namespace std;
 
-
+struct MetaData
+{
+    long rootId = 1;
+    long size = 0;
+};
 
 template<typename TypeKey, typename RecordType>
 class BPTree
 {
 private:
-    Page<RecordType> page;  
+    Page<RecordType> page;
+    MetaData meta;
 
     RecordType searchRec(NodeB<TypeKey> *node, TypeKey key);
     bool removeRec(NodeB<TypeKey>& node, TypeKey key);
@@ -23,7 +28,18 @@ private:
 public:
     BPTree(Page<RecordType> page)
     {
-        this->page = page;
+        if(page.isEmpty())
+        {
+            NodeB<TypeKey> root(meta.rootId);    
+            this->page = page;
+            this->page.save(meta.rootId, root);
+            ++meta.size;
+            page.save(0, meta);
+        }
+        else
+        {
+            page.get(0, meta);
+        }
     }
     ~BPTree();
 
